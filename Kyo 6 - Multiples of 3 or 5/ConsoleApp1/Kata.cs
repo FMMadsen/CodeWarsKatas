@@ -27,7 +27,7 @@ namespace ConsoleApp1
         }
 
         public static void Reset()
-        {
+        {   
             multiplies.Clear();
         }
 
