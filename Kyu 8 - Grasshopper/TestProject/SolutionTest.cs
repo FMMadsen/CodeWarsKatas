@@ -11,13 +11,13 @@ namespace TestProject
         {
             Kata.DoTurn();
 
-            Assert.AreEqual(6, Logic.Log.Count, "should call all 6 functions");
-            Assert.AreEqual("RollDice", Logic.Log[0], "should roll dice first");
-            Assert.AreEqual("Move", Logic.Log[1], "should move second");
-            Assert.AreEqual("Combat", Logic.Log[2], "should combat third");
-            Assert.AreEqual("GetCoins", Logic.Log[3], "should get coins fourth");
-            Assert.AreEqual("BuyHealth", Logic.Log[4], "should buy health fifth");
-            Assert.AreEqual("PrintStatus", Logic.Log[5], "should print status sixth");
+            Assert.That(Logic.Log.Count, Is.EqualTo(6), "should call all 6 functions");
+            Assert.That(Logic.Log[0], Is.EqualTo("RollDice"), "should roll dice first");
+            Assert.That(Logic.Log[1], Is.EqualTo("Move"), "should move second");
+            Assert.That(Logic.Log[2], Is.EqualTo("Combat"), "should combat third");
+            Assert.That(Logic.Log[3], Is.EqualTo("GetCoins"), "should get coins fourth");
+            Assert.That(Logic.Log[4], Is.EqualTo("BuyHealth"), "should buy health fifth");
+            Assert.That(Logic.Log[5], Is.EqualTo("PrintStatus"), "should print status sixth");
         }
     }
 }

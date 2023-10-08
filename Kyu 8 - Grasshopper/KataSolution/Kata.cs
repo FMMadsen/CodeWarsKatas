@@ -1,4 +1,4 @@
-﻿using KataSolution.Game;
+﻿using static KataSolution.Game.Logic;
 
 namespace KataSolution
 {
@@ -6,12 +6,12 @@ namespace KataSolution
     {
         public static void DoTurn()
         {
-            Logic.RollDice();
-            Logic.Move();
-            Logic.Combat();
-            Logic.GetCoins();
-            Logic.BuyHealth();
-            Logic.PrintStatus();
+            RollDice();
+            Move();
+            Combat();
+            GetCoins();
+            BuyHealth();
+            PrintStatus();
         }
     }
 }
