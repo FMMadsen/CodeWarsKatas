@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("KataSolution")]
+[assembly: AssemblyTitle("Kyo 6 - Multiples of 3 or 5")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("KataSolution")]
+[assembly: AssemblyProduct("Kyo 6 - Multiples of 3 or 5")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6410bbf8-08e4-4f5c-ae7b-3bcfc0ea6a2a")]
+[assembly: Guid("2a8eace1-baaf-44d2-bfae-c03601f05f8b")]
 
 // Version information for an assembly consists of the following four values:
 //

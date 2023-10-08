@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace KataSolution.Game
+namespace Kyo_6___Multiples_of_3_or_5.Game
 {
-    public static class Logic
+    public static class Logic2
     {
         public static List<string> Log = new List<string>();
 
