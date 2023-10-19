@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kyo 6 - Multiples of 3 or 5", "Kyo 6 - Multiples of 3 or 5", "{D259D068-083A-473C-AD18-43E09B7816B5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kyu 6 - Multiples of 3 or 5", "Kyu 6 - Multiples of 3 or 5", "{D259D068-083A-473C-AD18-43E09B7816B5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kyu 6 - Split Strings", "Kyu 6 - Split Strings", "{45188ED4-11D5-46DD-9C83-A64CD22292F2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kyo 7 - Consecutive numbers", "Kyo 7 - Consecutive numbers", "{EBEA6BDE-08EF-4845-821F-5B5D514D3BEB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kyu 7 - Consecutive numbers", "Kyu 7 - Consecutive numbers", "{EBEA6BDE-08EF-4845-821F-5B5D514D3BEB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kyu 8 - Multiply", "Kyu 8 - Multiply", "{72EC37B8-BCB0-4EFF-8BD8-6FB806938861}"
 EndProject
@@ -32,6 +32,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataSolution", "Kata Solutions\Kyu 8 - Multiply\KataSolution\KataSolution.csproj", "{F39D9929-8477-49C0-8D50-09FB1E8D9EC9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "Kata Solutions\Kyu 8 - Multiply\TestProject\TestProject.csproj", "{6679E595-0EA5-4127-86D8-EBF3CB1F2DF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kyu 5 - Maximum subarray sum", "Kyu 5 - Maximum subarray sum", "{38385B14-BF20-4B04-B556-AC82531A6C0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataSolution", "Kata Solutions\Kyu 5 - Maximum subarray sum\KataSolution\KataSolution.csproj", "{123C11EF-A4A2-40E3-A55C-BD8D83E63D0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "Kata Solutions\Kyu 5 - Maximum subarray sum\TestProject\TestProject.csproj", "{331780A7-7577-4F3E-AEEE-B4B1BF252EF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +85,14 @@ Global
 		{6679E595-0EA5-4127-86D8-EBF3CB1F2DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6679E595-0EA5-4127-86D8-EBF3CB1F2DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6679E595-0EA5-4127-86D8-EBF3CB1F2DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{123C11EF-A4A2-40E3-A55C-BD8D83E63D0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{123C11EF-A4A2-40E3-A55C-BD8D83E63D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{123C11EF-A4A2-40E3-A55C-BD8D83E63D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{123C11EF-A4A2-40E3-A55C-BD8D83E63D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{331780A7-7577-4F3E-AEEE-B4B1BF252EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331780A7-7577-4F3E-AEEE-B4B1BF252EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331780A7-7577-4F3E-AEEE-B4B1BF252EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331780A7-7577-4F3E-AEEE-B4B1BF252EF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -94,6 +108,8 @@ Global
 		{0F0D63AD-7930-41B4-AC61-6C73EB4BDE20} = {21457588-26CD-4525-9467-02101DDFB51F}
 		{F39D9929-8477-49C0-8D50-09FB1E8D9EC9} = {72EC37B8-BCB0-4EFF-8BD8-6FB806938861}
 		{6679E595-0EA5-4127-86D8-EBF3CB1F2DF0} = {72EC37B8-BCB0-4EFF-8BD8-6FB806938861}
+		{123C11EF-A4A2-40E3-A55C-BD8D83E63D0A} = {38385B14-BF20-4B04-B556-AC82531A6C0F}
+		{331780A7-7577-4F3E-AEEE-B4B1BF252EF4} = {38385B14-BF20-4B04-B556-AC82531A6C0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {970CAF5F-1481-4CC9-B931-1F804EB7A6A5}
