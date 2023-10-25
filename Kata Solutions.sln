@@ -13,14 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kyu 8 - Multiply", "Kyu 8 -
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kyu 8 - Grasshopper", "Kyu 8 - Grasshopper", "{21457588-26CD-4525-9467-02101DDFB51F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataSolution", "Kata Solutions\Kyo 6 - Multiples of 3 or 5\KataSolution\KataSolution.csproj", "{33EA8DAE-E6FA-4B97-AC68-4D205F9EB182}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "Kata Solutions\Kyo 6 - Multiples of 3 or 5\TestProject\TestProject.csproj", "{8F331FDF-B5CD-4578-9560-3B60F5FACC9D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataSolution", "Kata Solutions\Kyo 7 - Consecutive numbers\KataSolution\KataSolution.csproj", "{61FB9EBE-60D0-447E-9456-A12DCC168C4D}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "Kata Solutions\Kyo 7 - Consecutive numbers\TestProject\TestProject.csproj", "{27193FB7-F87A-41C8-913F-802660003B94}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataSolution", "Kata Solutions\Kyu 6 - Split Strings\KataSolution\KataSolution.csproj", "{93E5AF36-0F60-426D-B954-4E91309B4645}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "Kata Solutions\Kyu 6 - Split Strings\TestProject\TestProject.csproj", "{265CEF41-1B3A-48B2-80AF-5BB687AC40C8}"
@@ -37,7 +29,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kyu 5 - Maximum subarray su
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataSolution", "Kata Solutions\Kyu 5 - Maximum subarray sum\KataSolution\KataSolution.csproj", "{123C11EF-A4A2-40E3-A55C-BD8D83E63D0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "Kata Solutions\Kyu 5 - Maximum subarray sum\TestProject\TestProject.csproj", "{331780A7-7577-4F3E-AEEE-B4B1BF252EF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "Kata Solutions\Kyu 5 - Maximum subarray sum\TestProject\TestProject.csproj", "{331780A7-7577-4F3E-AEEE-B4B1BF252EF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataSolution", "Kata Solutions\Kyu 6 - Multiples of 3 or 5\KataSolution\KataSolution.csproj", "{33EA8DAE-E6FA-4B97-AC68-4D205F9EB182}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "Kata Solutions\Kyu 6 - Multiples of 3 or 5\TestProject\TestProject.csproj", "{44C2432A-B110-4457-BD3C-28CCACB43ADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataSolution", "Kata Solutions\Kyu 7 - Consecutive numbers\KataSolution\KataSolution.csproj", "{61FB9EBE-60D0-447E-9456-A12DCC168C4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "Kata Solutions\Kyu 7 - Consecutive numbers\TestProject\TestProject.csproj", "{C01E7BD3-2730-46BA-BC70-85A3E7DF906D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,22 +45,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{33EA8DAE-E6FA-4B97-AC68-4D205F9EB182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{33EA8DAE-E6FA-4B97-AC68-4D205F9EB182}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{33EA8DAE-E6FA-4B97-AC68-4D205F9EB182}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{33EA8DAE-E6FA-4B97-AC68-4D205F9EB182}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8F331FDF-B5CD-4578-9560-3B60F5FACC9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8F331FDF-B5CD-4578-9560-3B60F5FACC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8F331FDF-B5CD-4578-9560-3B60F5FACC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8F331FDF-B5CD-4578-9560-3B60F5FACC9D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{61FB9EBE-60D0-447E-9456-A12DCC168C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61FB9EBE-60D0-447E-9456-A12DCC168C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{61FB9EBE-60D0-447E-9456-A12DCC168C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61FB9EBE-60D0-447E-9456-A12DCC168C4D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{27193FB7-F87A-41C8-913F-802660003B94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{27193FB7-F87A-41C8-913F-802660003B94}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{27193FB7-F87A-41C8-913F-802660003B94}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{27193FB7-F87A-41C8-913F-802660003B94}.Release|Any CPU.Build.0 = Release|Any CPU
 		{93E5AF36-0F60-426D-B954-4E91309B4645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{93E5AF36-0F60-426D-B954-4E91309B4645}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93E5AF36-0F60-426D-B954-4E91309B4645}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -93,15 +77,27 @@ Global
 		{331780A7-7577-4F3E-AEEE-B4B1BF252EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{331780A7-7577-4F3E-AEEE-B4B1BF252EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{331780A7-7577-4F3E-AEEE-B4B1BF252EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33EA8DAE-E6FA-4B97-AC68-4D205F9EB182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33EA8DAE-E6FA-4B97-AC68-4D205F9EB182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33EA8DAE-E6FA-4B97-AC68-4D205F9EB182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33EA8DAE-E6FA-4B97-AC68-4D205F9EB182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44C2432A-B110-4457-BD3C-28CCACB43ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44C2432A-B110-4457-BD3C-28CCACB43ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44C2432A-B110-4457-BD3C-28CCACB43ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44C2432A-B110-4457-BD3C-28CCACB43ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61FB9EBE-60D0-447E-9456-A12DCC168C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61FB9EBE-60D0-447E-9456-A12DCC168C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61FB9EBE-60D0-447E-9456-A12DCC168C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61FB9EBE-60D0-447E-9456-A12DCC168C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C01E7BD3-2730-46BA-BC70-85A3E7DF906D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C01E7BD3-2730-46BA-BC70-85A3E7DF906D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C01E7BD3-2730-46BA-BC70-85A3E7DF906D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C01E7BD3-2730-46BA-BC70-85A3E7DF906D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{33EA8DAE-E6FA-4B97-AC68-4D205F9EB182} = {D259D068-083A-473C-AD18-43E09B7816B5}
-		{8F331FDF-B5CD-4578-9560-3B60F5FACC9D} = {D259D068-083A-473C-AD18-43E09B7816B5}
-		{61FB9EBE-60D0-447E-9456-A12DCC168C4D} = {EBEA6BDE-08EF-4845-821F-5B5D514D3BEB}
-		{27193FB7-F87A-41C8-913F-802660003B94} = {EBEA6BDE-08EF-4845-821F-5B5D514D3BEB}
 		{93E5AF36-0F60-426D-B954-4E91309B4645} = {45188ED4-11D5-46DD-9C83-A64CD22292F2}
 		{265CEF41-1B3A-48B2-80AF-5BB687AC40C8} = {45188ED4-11D5-46DD-9C83-A64CD22292F2}
 		{6410BBF8-08E4-4F5C-AE7B-3BCFC0EA6A2A} = {21457588-26CD-4525-9467-02101DDFB51F}
@@ -110,6 +106,10 @@ Global
 		{6679E595-0EA5-4127-86D8-EBF3CB1F2DF0} = {72EC37B8-BCB0-4EFF-8BD8-6FB806938861}
 		{123C11EF-A4A2-40E3-A55C-BD8D83E63D0A} = {38385B14-BF20-4B04-B556-AC82531A6C0F}
 		{331780A7-7577-4F3E-AEEE-B4B1BF252EF4} = {38385B14-BF20-4B04-B556-AC82531A6C0F}
+		{33EA8DAE-E6FA-4B97-AC68-4D205F9EB182} = {D259D068-083A-473C-AD18-43E09B7816B5}
+		{44C2432A-B110-4457-BD3C-28CCACB43ADB} = {D259D068-083A-473C-AD18-43E09B7816B5}
+		{61FB9EBE-60D0-447E-9456-A12DCC168C4D} = {EBEA6BDE-08EF-4845-821F-5B5D514D3BEB}
+		{C01E7BD3-2730-46BA-BC70-85A3E7DF906D} = {EBEA6BDE-08EF-4845-821F-5B5D514D3BEB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {970CAF5F-1481-4CC9-B931-1F804EB7A6A5}
