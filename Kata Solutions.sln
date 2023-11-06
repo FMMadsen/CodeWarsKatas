@@ -49,7 +49,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kyu 6 - Valid Braces", "Kyu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataSolution", "Kata Solutions\Kyu 6 - Valid Braces\KataSolution\KataSolution.csproj", "{3A40782C-36A8-42D0-A2A5-A6925A4EDBB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "Kata Solutions\Kyu 6 - Valid Braces\TestProject\TestProject.csproj", "{41686E91-5D19-47A2-BF23-47DE6C560472}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "Kata Solutions\Kyu 6 - Valid Braces\TestProject\TestProject.csproj", "{41686E91-5D19-47A2-BF23-47DE6C560472}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kyu 7 - Only one", "Kyu 7 - Only one", "{521BD689-A5A3-4631-8FB3-23B461A84641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "Kata Solutions\Kyu 7 - Only one\TestProject\TestProject.csproj", "{C0883F83-DD25-4808-BEF9-F69628479CB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataSolution", "Kata Solutions\Kyu 7 - Only one\KataSolution\KataSolution.csproj", "{3F075E9C-70E8-4F5E-BD6A-771BA66D065A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +127,14 @@ Global
 		{41686E91-5D19-47A2-BF23-47DE6C560472}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41686E91-5D19-47A2-BF23-47DE6C560472}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41686E91-5D19-47A2-BF23-47DE6C560472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0883F83-DD25-4808-BEF9-F69628479CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0883F83-DD25-4808-BEF9-F69628479CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0883F83-DD25-4808-BEF9-F69628479CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0883F83-DD25-4808-BEF9-F69628479CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F075E9C-70E8-4F5E-BD6A-771BA66D065A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F075E9C-70E8-4F5E-BD6A-771BA66D065A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F075E9C-70E8-4F5E-BD6A-771BA66D065A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F075E9C-70E8-4F5E-BD6A-771BA66D065A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -142,6 +156,8 @@ Global
 		{E3BB7DE8-DEB7-4698-819D-430F90CF8B21} = {4AB98490-2BE5-45C3-9690-7CCAF3F1E01C}
 		{3A40782C-36A8-42D0-A2A5-A6925A4EDBB6} = {97AC1225-1A60-4F6F-B27F-3C1A6F17A57B}
 		{41686E91-5D19-47A2-BF23-47DE6C560472} = {97AC1225-1A60-4F6F-B27F-3C1A6F17A57B}
+		{C0883F83-DD25-4808-BEF9-F69628479CB0} = {521BD689-A5A3-4631-8FB3-23B461A84641}
+		{3F075E9C-70E8-4F5E-BD6A-771BA66D065A} = {521BD689-A5A3-4631-8FB3-23B461A84641}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {970CAF5F-1481-4CC9-B931-1F804EB7A6A5}
