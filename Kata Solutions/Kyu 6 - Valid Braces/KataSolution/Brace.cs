@@ -27,11 +27,7 @@
                 switch (c)
                 {
                     case '(':
-                        bStack.Push(c);
-                        break;
                     case '[':
-                        bStack.Push(c);
-                        break;
                     case '{':
                         bStack.Push(c);
                         break;
