@@ -10,7 +10,7 @@ namespace TestProject
         [TestCase(200, 9168)]
         [TestCase(0, 0)]
         [TestCase(-5, 0)]
-        public void Test_Kyu_6_MultipliesOf3r5(int input, int expectedOutput)
+        public void Test_Kyu_6_MultipliesOf3or5(int input, int expectedOutput)
         {
             // Arrange
             Kata.Reset();
