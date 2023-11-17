@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pattern16Tommy.cs" />
     <Compile Include="Pattern16.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
