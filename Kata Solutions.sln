@@ -53,7 +53,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "Kata Solutio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kyu 7 - Only one", "Kyu 7 - Only one", "{521BD689-A5A3-4631-8FB3-23B461A84641}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "Kata Solutions\Kyu 7 - Only one\TestProject\TestProject.csproj", "{C0883F83-DD25-4808-BEF9-F69628479CB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "Kata Solutions\Kyu 7 - Only one\TestProject\TestProject.csproj", "{C0883F83-DD25-4808-BEF9-F69628479CB0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataSolution", "Kata Solutions\Kyu 7 - Only one\KataSolution\KataSolution.csproj", "{3F075E9C-70E8-4F5E-BD6A-771BA66D065A}"
 EndProject
@@ -61,7 +61,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kyu 6 - Complete the patter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataSolution", "Kata Solutions\Kyu 6 - Complete the pattern 16\KataSolution\KataSolution.csproj", "{02C1A2A8-8182-46F6-A62D-6F2B72CFE611}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "Kata Solutions\Kyu 6 - Complete the pattern 16\TestProject\TestProject.csproj", "{C32E8E25-80ED-4DA0-90EB-36E9757E9088}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "Kata Solutions\Kyu 6 - Complete the pattern 16\TestProject\TestProject.csproj", "{C32E8E25-80ED-4DA0-90EB-36E9757E9088}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kyu 8 - Even or Odd", "Kyu 8 - Even or Odd", "{56524609-0E95-4EBD-953D-177C56FFF8A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataSolution", "Kata Solutions\Kyu 8 - Even or Odd\KataSolution\KataSolution.csproj", "{C8F3C2E1-A8F7-45CD-91C0-6C6013C5236E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "Kata Solutions\Kyu 8 - Even or Odd\TestProject\TestProject.csproj", "{5FCE4DBC-52F9-4BDE-8CA8-39CC616F9AE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kyu 8 - A Needle in the Haystack", "Kyu 8 - A Needle in the Haystack", "{2B2D93E8-A521-45E0-9B02-E23B4896EA45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataSolution", "Kata Solutions\Kyu 8 - A Needle in the Haystack\KataSolution\KataSolution.csproj", "{720BE2B3-6144-4D5F-B48F-D2D82C7713D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "Kata Solutions\Kyu 8 - A Needle in the Haystack\TestProject\TestProject.csproj", "{C15F3081-4BAC-4A36-8C5E-A2FBC8030203}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -149,6 +161,22 @@ Global
 		{C32E8E25-80ED-4DA0-90EB-36E9757E9088}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C32E8E25-80ED-4DA0-90EB-36E9757E9088}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C32E8E25-80ED-4DA0-90EB-36E9757E9088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F3C2E1-A8F7-45CD-91C0-6C6013C5236E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F3C2E1-A8F7-45CD-91C0-6C6013C5236E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F3C2E1-A8F7-45CD-91C0-6C6013C5236E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F3C2E1-A8F7-45CD-91C0-6C6013C5236E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FCE4DBC-52F9-4BDE-8CA8-39CC616F9AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FCE4DBC-52F9-4BDE-8CA8-39CC616F9AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FCE4DBC-52F9-4BDE-8CA8-39CC616F9AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FCE4DBC-52F9-4BDE-8CA8-39CC616F9AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{720BE2B3-6144-4D5F-B48F-D2D82C7713D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720BE2B3-6144-4D5F-B48F-D2D82C7713D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720BE2B3-6144-4D5F-B48F-D2D82C7713D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720BE2B3-6144-4D5F-B48F-D2D82C7713D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15F3081-4BAC-4A36-8C5E-A2FBC8030203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15F3081-4BAC-4A36-8C5E-A2FBC8030203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15F3081-4BAC-4A36-8C5E-A2FBC8030203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15F3081-4BAC-4A36-8C5E-A2FBC8030203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -174,6 +202,10 @@ Global
 		{3F075E9C-70E8-4F5E-BD6A-771BA66D065A} = {521BD689-A5A3-4631-8FB3-23B461A84641}
 		{02C1A2A8-8182-46F6-A62D-6F2B72CFE611} = {067B8B2B-8C81-4158-9D36-E5C2B41B377C}
 		{C32E8E25-80ED-4DA0-90EB-36E9757E9088} = {067B8B2B-8C81-4158-9D36-E5C2B41B377C}
+		{C8F3C2E1-A8F7-45CD-91C0-6C6013C5236E} = {56524609-0E95-4EBD-953D-177C56FFF8A7}
+		{5FCE4DBC-52F9-4BDE-8CA8-39CC616F9AE5} = {56524609-0E95-4EBD-953D-177C56FFF8A7}
+		{720BE2B3-6144-4D5F-B48F-D2D82C7713D2} = {2B2D93E8-A521-45E0-9B02-E23B4896EA45}
+		{C15F3081-4BAC-4A36-8C5E-A2FBC8030203} = {2B2D93E8-A521-45E0-9B02-E23B4896EA45}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {970CAF5F-1481-4CC9-B931-1F804EB7A6A5}
